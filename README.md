@@ -2,15 +2,15 @@
 
 A new Flutter project.
 
-## Getting Started
+here we're trying to use an animation controller in flutter.
 
-This project is a starting point for a Flutter application.
+The animation can be played forward or reverse, and we can stop it.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For this, 
+  add AnimationController
+  Add Animation
+  Iniate AnimationController with Duration
+  Initiate animation with Tween with begin and end values and chain the animate method with a CurvedAnimation
+  Use the AnimatedBuilder with Animation using Container with a balloon to start Animation by calling the 
+    AnimationController.forward() and .reverse() to run the animation backward
+  The AnimatedBuilder widget is used to create a widget that performs a reusable animation.
